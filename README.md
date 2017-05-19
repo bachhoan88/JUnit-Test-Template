@@ -58,7 +58,11 @@ dependencies {
 }
 
 ```
+1. If Java source `src\main\java\package`. Create Unit Test package `src\androidTest\java\package`
+1. If Create `Activity` file name `MainActivity`. Create Unit Test file name `MainActivityUnitTest`
 
+
+## Code sample check id exists and check EditText has hint text
 <b> Define View ID in XML (Code Sample)</b>
 With a Activity, Developer need write a unit test for that class, and define all ID, function before code
 ```java
