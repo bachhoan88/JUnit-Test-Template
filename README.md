@@ -66,7 +66,7 @@ dependencies {
 <b> Define View ID in XML (Code Sample)</b>
 With a Activity, Developer need write a unit test for that class, and define all ID, function before code
 ```java
-@Test
+	@Test
     public void testConstructor_WIDGET_ID() {
         // Define all widget id using in xml
         onView(withResourceName("textViewHelloWorld")).check(matches(isDisplayed()));
