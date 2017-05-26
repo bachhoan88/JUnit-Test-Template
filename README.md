@@ -32,7 +32,7 @@ The unit test will be ran automatically.
 
 ## Setup new project in Android Studio
 1. Require min SDK 18
-1. Config in `build.gradle`
+2. Config in `build.gradle`
 ```java
 android {
 	...
@@ -58,8 +58,8 @@ dependencies {
 }
 
 ```
-1. If Java source `src\main\java\package`. Create Unit Test package `src\androidTest\java\package`
-1. If Create `Activity` file name `MainActivity`. Create Unit Test file name `MainActivityUnitTest`
+3. If Java source `src\main\java\package`. Create Unit Test package `src\androidTest\java\package`
+4. If Create `Activity` file name `MainActivity`. Create Unit Test file name `MainActivityUnitTest`
 
 
 ## Code sample check id exists and check EditText has hint text
